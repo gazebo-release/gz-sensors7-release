@@ -1,6 +1,6 @@
-ignition-sensors3 (3.0.0-1~focal) focal; urgency=medium
+ignition-sensors4 (3.999.999-1~focal) focal; urgency=medium
 
-  * ignition-sensors3 3.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Dec 2019 17:57:11 +0100
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:31:16 +0200
 

@@ -1,4 +1,4 @@
-Source: ignition-sensors3
+Source: ignition-sensors4
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -11,38 +11,38 @@ Build-Depends: cmake,
                libignition-common3-events-dev,
                libignition-common3-profiler-dev,
                libignition-math6-dev,
-               libignition-msgs5-dev,
+               libignition-msgs6-dev,
                libignition-plugin-dev,
                libignition-rendering3-ogre1-dev,
                libignition-rendering3-ogre2-dev,
                libignition-transport8-core-dev,
                libignition-tools-dev,
-               libsdformat9-dev
-Vcs-Browser: https://github.com/ignition-release/ign-sensors3-release
-Vcs-Hg: https://github.com/ignition-release/ign-sensors3-release
+               libsdformat10-dev
+Vcs-Browser: https://github.com/ignition-release/ign-sensors4-release
+Vcs-Git: https://github.com/ignition-release/ign-sensors4-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-sensors3-core-dev
+Package: libignition-sensors4-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-plugin-dev,
          libignition-rendering3-ogre1-dev,
          libignition-rendering3-ogre2-dev,
          libignition-transport8-core-dev,
          libignition-tools-dev,
-         libsdformat9-dev,
-         libignition-sensors3 (= ${binary:Version}),
+         libsdformat10-dev,
+         libignition-sensors4 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Development files
   Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
 
-Package: libignition-sensors3
+Package: libignition-sensors4
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -52,14 +52,14 @@ Description: Ignition sensors2 classes and functions for robot apps - Shared lib
   Ignition sensors2 is a component in the ignition framework, a set of libraries
   designed to rapidly develop robot applications.
 
-Package: libignition-sensors3-air-pressure-dev
+Package: libignition-sensors4-air-pressure-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-air-pressure (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-air-pressure (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files air-pressure
@@ -68,7 +68,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for air-pressure sensor
 
-Package: libignition-sensors3-air-pressure
+Package: libignition-sensors4-air-pressure
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -80,14 +80,14 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib air-pr
   .
   Shared library for air-pressure sensor
 
-Package: libignition-sensors3-altimeter-dev
+Package: libignition-sensors4-altimeter-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-altimeter (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-altimeter (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files altimeter
@@ -96,7 +96,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for altimeter sensor
 
-Package: libignition-sensors3-altimeter
+Package: libignition-sensors4-altimeter
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -109,17 +109,17 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib altime
   Shared library for altimeter sensor
 
 
-Package: libignition-sensors3-camera-dev
+Package: libignition-sensors4-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-camera (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files Camera
@@ -128,7 +128,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for Camera sensor
 
-Package: libignition-sensors3-camera
+Package: libignition-sensors4-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -140,18 +140,18 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib Camera
   .
   Shared library for Camera sensor
 
-Package: libignition-sensors3-depth-camera-dev
+Package: libignition-sensors4-depth-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libignition-sensors3-camera-dev,
-         libsdformat9-dev,
-         libignition-sensors3-depth-camera (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libignition-sensors4-camera-dev,
+         libsdformat10-dev,
+         libignition-sensors4-depth-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files depth-camera
@@ -160,7 +160,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for depth-camera sensor
 
-Package: libignition-sensors3-depth-camera
+Package: libignition-sensors4-depth-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -171,15 +171,15 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib depth-
   designed to rapidly develop robot applications.
   . Shared library for depth-camera sensor
 
-Package: libignition-sensors3-imu-dev
+Package: libignition-sensors4-imu-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-imu (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-imu (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files imu
@@ -188,7 +188,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for imu sensor
 
-Package: libignition-sensors3-imu
+Package: libignition-sensors4-imu
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -201,17 +201,17 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib imu
   Shared library for imu sensor
 
 
-Package: libignition-sensors3-lidar-dev
+Package: libignition-sensors4-lidar-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-lidar (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files lidar
@@ -220,7 +220,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for lidar sensor
 
-Package: libignition-sensors3-lidar
+Package: libignition-sensors4-lidar
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -232,18 +232,18 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib lidar
   .
   Shared library for lidar sensor
 
-Package: libignition-sensors3-gpu-lidar-dev
+Package: libignition-sensors4-gpu-lidar-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libignition-sensors3-lidar-dev,
-         libsdformat9-dev,
-         libignition-sensors3-gpu-lidar (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libignition-sensors4-lidar-dev,
+         libsdformat10-dev,
+         libignition-sensors4-gpu-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files gpu-lidar
@@ -252,7 +252,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for gpu-lidar sensor
 
-Package: libignition-sensors3-gpu-lidar
+Package: libignition-sensors4-gpu-lidar
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -264,17 +264,17 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib gpu-li
   .
   Shared library for gpu-lidar sensor
 
-Package: libignition-sensors3-logical-camera-dev
+Package: libignition-sensors4-logical-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-logical-camera (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-logical-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files logical-camera
@@ -283,7 +283,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for logical-camera sensor
 
-Package: libignition-sensors3-logical-camera
+Package: libignition-sensors4-logical-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -295,15 +295,15 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib logica
   .
   Shared library for logical-camera sensor
 
-Package: libignition-sensors3-magnetometer-dev
+Package: libignition-sensors4-magnetometer-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-magnetometer (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-magnetometer (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files magnetometer
@@ -312,7 +312,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for magnetometer sensor
 
-Package: libignition-sensors3-magnetometer
+Package: libignition-sensors4-magnetometer
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -324,15 +324,15 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib magnet
   .
   Shared library for magnetometer sensor
 
-Package: libignition-sensors3-rendering-dev
+Package: libignition-sensors4-rendering-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-rendering (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-rendering (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files rendering
@@ -341,7 +341,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for rendering sensor
 
-Package: libignition-sensors3-rendering
+Package: libignition-sensors4-rendering
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -353,14 +353,14 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib render
   .
   Shared library for rendering sensor
 
-Package: libignition-sensors3-rgbd-camera-dev
+Package: libignition-sensors4-rgbd-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-msgs5-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-rgbd-camera (= ${binary:Version}),
+         libignition-msgs6-dev,
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-rgbd-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Sensors classes and functions for robot apps - Dev files rgbd-camera
@@ -369,7 +369,7 @@ Description: Ignition Sensors classes and functions for robot apps - Dev files r
   .
   Development files for rgbd-camera sensor
 
-Package: libignition-sensors3-rgbd-camera
+Package: libignition-sensors4-rgbd-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -381,17 +381,17 @@ Description: Ignition Sensors classes and functions for robot apps - Lib rgbd-ca
   .
   Shared library for rgbd-camera sensor
 
-Package: libignition-sensors3-thermal-camera-dev
+Package: libignition-sensors4-thermal-camera-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev,
-         libignition-msgs5-dev,
+         libignition-msgs6-dev,
          libignition-transport8-core-dev,
-         libignition-sensors3-core-dev,
-         libsdformat9-dev,
-         libignition-sensors3-thermal-camera (= ${binary:Version}),
+         libignition-sensors4-core-dev,
+         libsdformat10-dev,
+         libignition-sensors4-thermal-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Dev files thermal-camera
@@ -400,7 +400,7 @@ Description: Ignition sensors2 classes and functions for robot apps - Dev files 
   .
   Development files for thermal-camera sensor
 
-Package: libignition-sensors3-thermal-camera
+Package: libignition-sensors4-thermal-camera
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -412,22 +412,22 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib therma
   .
   Shared library for thermal-camera sensor
 
-Package: libignition-sensors3-dev
+Package: libignition-sensors4-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-sensors3-core-dev,
-         libignition-sensors3-air-pressure-dev,
-         libignition-sensors3-altimeter-dev,
-         libignition-sensors3-camera-dev,
-         libignition-sensors3-depth-camera-dev,
-         libignition-sensors3-imu-dev,
-         libignition-sensors3-lidar-dev,
-         libignition-sensors3-gpu-lidar-dev,
-         libignition-sensors3-logical-camera-dev,
-         libignition-sensors3-magnetometer-dev,
-         libignition-sensors3-rendering-dev,
-         libignition-sensors3-rgbd-camera-dev,
-         libignition-sensors3-thermal-camera-dev,
+Depends: libignition-sensors4-core-dev,
+         libignition-sensors4-air-pressure-dev,
+         libignition-sensors4-altimeter-dev,
+         libignition-sensors4-camera-dev,
+         libignition-sensors4-depth-camera-dev,
+         libignition-sensors4-imu-dev,
+         libignition-sensors4-lidar-dev,
+         libignition-sensors4-gpu-lidar-dev,
+         libignition-sensors4-logical-camera-dev,
+         libignition-sensors4-magnetometer-dev,
+         libignition-sensors4-rendering-dev,
+         libignition-sensors4-rgbd-camera-dev,
+         libignition-sensors4-thermal-camera-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Metapackage
