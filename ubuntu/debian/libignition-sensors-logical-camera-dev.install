@@ -1,0 +1,5 @@
+usr/include/ignition/sensors*/ignition/sensors/logical_camera/*
+usr/include/ignition/sensors*/ignition/sensors/LogicalCamera*.hh
+usr/lib/*/cmake/ignition-sensors[0-99]-logical_camera/*
+usr/lib/*/libignition-sensors[0-99]-logical_camera.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-logical_camera.pc

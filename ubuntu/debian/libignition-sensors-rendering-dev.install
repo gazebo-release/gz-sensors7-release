@@ -1,0 +1,5 @@
+usr/include/ignition/sensors*/ignition/sensors/rendering/*
+usr/include/ignition/sensors*/ignition/sensors/Rendering*.hh
+usr/lib/*/cmake/ignition-sensors[0-99]-rendering/*
+usr/lib/*/libignition-sensors[0-99]-rendering.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-rendering.pc

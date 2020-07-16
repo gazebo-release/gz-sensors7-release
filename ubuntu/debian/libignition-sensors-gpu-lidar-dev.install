@@ -1,0 +1,5 @@
+usr/include/ignition/sensors*/ignition/sensors/gpu_lidar/*
+usr/include/ignition/sensors*/ignition/sensors/GpuLidar*.hh
+usr/lib/*/cmake/ignition-sensors[0-99]-gpu_lidar/*
+usr/lib/*/libignition-sensors[0-99]-gpu_lidar.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-gpu_lidar.pc

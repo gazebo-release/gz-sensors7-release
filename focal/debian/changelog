@@ -1,0 +1,6 @@
+ignition-sensors3 (3.0.0-1~focal) focal; urgency=medium
+
+  * ignition-sensors3 3.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Dec 2019 17:57:11 +0100
+

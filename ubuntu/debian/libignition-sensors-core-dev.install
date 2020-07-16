@@ -1,0 +1,6 @@
+usr/include/ignition/sensors[0-99]/ignition/sensors.hh
+usr/include/ignition/sensors[0-99]/ignition/sensors/*.hh
+usr/include/ignition/sensors[0-99]/ignition/sensors/detail/*.hh
+usr/lib/*/libignition-sensors[0-99].so
+usr/lib/*/pkgconfig/ignition-sensors[0-99].pc
+usr/lib/*/cmake/ignition-sensors[0-99]/ignition-sensors*

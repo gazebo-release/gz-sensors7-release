@@ -1,0 +1,5 @@
+usr/include/ignition/sensors*/ignition/sensors/magnetometer/*
+usr/include/ignition/sensors*/ignition/sensors/Magnetometer*.hh
+usr/lib/*/cmake/ignition-sensors[0-99]-magnetometer/*
+usr/lib/*/libignition-sensors[0-99]-magnetometer.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-magnetometer.pc

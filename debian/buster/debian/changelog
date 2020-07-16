@@ -1,0 +1,12 @@
+ignition-sensors3 (3.0.0-2~buster) buster; urgency=medium
+
+  * Fix install file name
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 20 Apr 2020 18:11:55 +0200
+
+ignition-sensors3 (3.0.0-1~buster) buster; urgency=medium
+
+  * ignition-sensors3 3.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Dec 2019 17:57:11 +0100
+
