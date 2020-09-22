@@ -10,7 +10,7 @@ Build-Depends: cmake,
                libignition-cmake2-dev,
                libignition-common3-events-dev,
                libignition-common3-profiler-dev,
-               libignition-math6-dev,
+               libignition-math6-dev (>= 6.6.0),
                libignition-msgs6-dev,
                libignition-plugin-dev,
                libignition-rendering4-ogre1-dev,
@@ -27,7 +27,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-plugin-dev,
          libignition-rendering4-ogre1-dev,
@@ -114,7 +114,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
@@ -145,7 +145,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
@@ -176,7 +176,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
          libsdformat10-dev,
          libignition-sensors4-imu (= ${binary:Version}),
@@ -206,7 +206,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
@@ -237,7 +237,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
@@ -269,7 +269,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
@@ -300,7 +300,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
          libsdformat10-dev,
          libignition-sensors4-magnetometer (= ${binary:Version}),
@@ -329,7 +329,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-sensors4-core-dev,
          libsdformat10-dev,
          libignition-sensors4-rendering (= ${binary:Version}),
@@ -386,7 +386,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
-         libignition-math6-dev,
+         libignition-math6-dev (>= 6.6.0),
          libignition-msgs6-dev,
          libignition-transport9-core-dev,
          libignition-sensors4-core-dev,
