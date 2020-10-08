@@ -1,18 +1,6 @@
-ignition-sensors4 (4.0.0-1~buster) buster; urgency=medium
-
-  * ignition-sensors4 4.0.0-1 release
-
- -- Ian Chen <ichen@osrfoundation.org>  Wed, 30 Sep 2020 15:02:10 -0700
-
-ignition-sensors4 (4.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-sensors4 4.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Tue, 22 Sep 2020 16:48:26 -0700
-
-ignition-sensors4 (3.999.999-1~buster) buster; urgency=medium
+ignition-sensors5 (4.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:31:16 +0200
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 07 Oct 2020 17:36:35 -0700
 
