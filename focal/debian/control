@@ -17,7 +17,7 @@ Build-Depends: cmake,
                libignition-rendering5-ogre2-dev,
                libignition-transport10-core-dev,
                libignition-tools-dev,
-               libsdformat10-dev
+               libsdformat11-dev
 Vcs-Browser: https://github.com/ignition-release/ign-sensors5-release
 Vcs-Git: https://github.com/ignition-release/ign-sensors5-release
 Homepage: http://ignitionrobotics.org/
@@ -34,7 +34,7 @@ Depends: libignition-cmake2-dev,
          libignition-rendering5-ogre2-dev,
          libignition-transport10-core-dev,
          libignition-tools-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -58,7 +58,7 @@ Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-air-pressure (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -86,7 +86,7 @@ Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-altimeter (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -118,7 +118,7 @@ Depends: libignition-cmake2-dev,
          libignition-msgs7-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -150,7 +150,7 @@ Depends: libignition-cmake2-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
          libignition-sensors5-camera-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-depth-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -178,7 +178,7 @@ Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-imu (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -210,7 +210,7 @@ Depends: libignition-cmake2-dev,
          libignition-msgs7-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -242,7 +242,7 @@ Depends: libignition-cmake2-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
          libignition-sensors5-lidar-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-gpu-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -273,7 +273,7 @@ Depends: libignition-cmake2-dev,
          libignition-msgs7-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-logical-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -302,7 +302,7 @@ Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-magnetometer (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -331,7 +331,7 @@ Depends: libignition-cmake2-dev,
          libignition-common3-events-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-rendering (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -359,7 +359,7 @@ Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-msgs7-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-rgbd-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -390,7 +390,7 @@ Depends: libignition-cmake2-dev,
          libignition-msgs7-dev,
          libignition-transport10-core-dev,
          libignition-sensors5-core-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          libignition-sensors5-thermal-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
