@@ -1,3 +1,9 @@
+ignition-sensors5 (5.0.0~pre1-2~bionic) bionic; urgency=medium
+
+  * ignition-sensors5 5.0.0~pre1-2 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 25 Mar 2021 18:43:55 -0700
+
 ignition-sensors5 (5.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-sensors5 5.0.0~pre1-1 release
