@@ -1,30 +1,6 @@
-ignition-sensors5 (5.0.0-1~bionic) bionic; urgency=medium
-
-  * ignition-sensors5 5.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 31 Mar 2021 16:18:32 -0700
-
-ignition-sensors5 (5.0.0~pre2-1~bionic) bionic; urgency=medium
-
-  * ignition-sensors5 5.0.0~pre2-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Thu, 25 Mar 2021 19:42:55 -0700
-
-ignition-sensors5 (5.0.0~pre1-2~bionic) bionic; urgency=medium
-
-  * ignition-sensors5 5.0.0~pre1-2 release
-
- -- Louise Poubel <louise@openrobotics.org>  Thu, 25 Mar 2021 18:43:55 -0700
-
-ignition-sensors5 (5.0.0~pre1-1~bionic) bionic; urgency=medium
-
-  * ignition-sensors5 5.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Thu, 25 Mar 2021 15:24:53 -0700
-
-ignition-sensors5 (4.999.999-1~bionic) bionic; urgency=medium
+ignition-sensors6 (5.999.999-1~bionic) bionic; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Wed, 07 Oct 2020 17:36:35 -0700
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Apr 2021 15:27:17 -0700
 
