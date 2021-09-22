@@ -1,3 +1,9 @@
+ignition-sensors6 (6.0.0~pre1-3~focal) focal; urgency=medium
+
+  * ignition-sensors6 6.0.0~pre1-3 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 12:57:21 -0700
+
 ignition-sensors6 (6.0.0~pre1-2~focal) focal; urgency=medium
 
   * ignition-sensors6 6.0.0~pre1-2 release
