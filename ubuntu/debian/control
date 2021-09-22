@@ -171,6 +171,35 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib depth-
   designed to rapidly develop robot applications.
   . Shared library for depth-camera sensor
 
+Package: libignition-sensors6-force-torque-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common4-events-dev,
+         libignition-math6-dev (>= 6.6.0),
+         libignition-sensors6-core-dev,
+         libsdformat12-dev,
+         libignition-sensors6-force-torque (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Dev files force-torque
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for force-torque sensor
+
+Package: libignition-sensors6-force-torque
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Lib force-torque
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for force-torque sensor
+
 Package: libignition-sensors6-imu-dev
 Architecture: any
 Section: libdevel
@@ -381,6 +410,37 @@ Description: Ignition Sensors classes and functions for robot apps - Lib rgbd-ca
   .
   Shared library for rgbd-camera sensor
 
+Package: libignition-sensors6-segmentation-camera-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common4-events-dev,
+         libignition-math6-dev (>= 6.6.0),
+         libignition-msgs8-dev,
+         libignition-transport11-core-dev,
+         libignition-sensors6-core-dev,
+         libsdformat12-dev,
+         libignition-sensors6-segmentation-camera (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Dev files segmentation-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for segmentation-camera sensor
+
+Package: libignition-sensors6-segmentation-camera
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition sensors2 classes and functions for robot apps - Lib segmentation-camera
+  Ignition sensors2 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for segmentation-camera sensor
+
 Package: libignition-sensors6-thermal-camera-dev
 Architecture: any
 Section: libdevel
@@ -420,6 +480,7 @@ Depends: libignition-sensors6-core-dev,
          libignition-sensors6-altimeter-dev,
          libignition-sensors6-camera-dev,
          libignition-sensors6-depth-camera-dev,
+         libignition-sensors6-force-torque-dev,
          libignition-sensors6-imu-dev,
          libignition-sensors6-lidar-dev,
          libignition-sensors6-gpu-lidar-dev,
@@ -427,6 +488,7 @@ Depends: libignition-sensors6-core-dev,
          libignition-sensors6-magnetometer-dev,
          libignition-sensors6-rendering-dev,
          libignition-sensors6-rgbd-camera-dev,
+         libignition-sensors6-segmentation-camera-dev,
          libignition-sensors6-thermal-camera-dev,
          ${misc:Depends}
 Multi-Arch: same

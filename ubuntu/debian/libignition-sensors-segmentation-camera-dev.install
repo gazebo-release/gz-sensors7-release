@@ -1,0 +1,5 @@
+usr/include/ignition/sensors*/ignition/sensors/segmentation_camera/*
+usr/include/ignition/sensors*/ignition/sensors/SegmentationCamera*.hh
+usr/lib/*/cmake/ignition-sensors[0-99]-segmentation_camera/*
+usr/lib/*/libignition-sensors[0-99]-segmentation_camera.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-segmentation_camera.pc
