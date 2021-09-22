@@ -1,3 +1,9 @@
+ignition-sensors6 (6.0.0~pre1-4~buster) buster; urgency=medium
+
+  * ignition-sensors6 6.0.0~pre1-4 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 13:46:12 -0700
+
 ignition-sensors6 (6.0.0~pre1-3~buster) buster; urgency=medium
 
   * ignition-sensors6 6.0.0~pre1-3 release
