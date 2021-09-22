@@ -1,3 +1,15 @@
+ignition-sensors6 (6.0.0~pre1-1~focal) focal; urgency=medium
+
+  * ignition-sensors6 6.0.0~pre1-1 release
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 22 Sep 2021 11:18:01 -0500
+
+ignition-sensors6 (6.0.0~pre1-1~focal) focal; urgency=medium
+
+  * ignition-sensors6 6.0.0~pre1-1 release
+
+ -- Michael Carroll <mjcarroll@dalinar>  Wed, 22 Sep 2021 11:17:24 -0500
+
 ignition-sensors6 (5.999.999-1~focal) focal; urgency=medium
 
   * Stub to be removed after first entry
