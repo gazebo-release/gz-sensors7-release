@@ -1,1 +1,1 @@
-usr/lib/*/libignition-sensors[0-99]-force-torque.so.*
+usr/lib/*/libignition-sensors[0-99]-force_torque.so.*

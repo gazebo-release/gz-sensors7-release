@@ -1,5 +1,5 @@
 usr/include/ignition/sensors*/ignition/sensors/force_torque/*
 usr/include/ignition/sensors*/ignition/sensors/ForceTorque*.hh
-usr/lib/*/cmake/ignition-sensors[0-99]-force-torque/*
-usr/lib/*/libignition-sensors[0-99]-force-torque.so
-usr/lib/*/pkgconfig/ignition-sensors[0-99]-force-torque.pc
+usr/lib/*/cmake/ignition-sensors[0-99]-force_torque/*
+usr/lib/*/libignition-sensors[0-99]-force_torque.so
+usr/lib/*/pkgconfig/ignition-sensors[0-99]-force_torque.pc
