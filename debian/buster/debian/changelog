@@ -1,42 +1,6 @@
-ignition-sensors6 (6.0.0-1~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Thu, 30 Sep 2021 18:22:06 -0700
-
-ignition-sensors6 (6.0.0~pre1-4~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0~pre1-4 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 13:46:12 -0700
-
-ignition-sensors6 (6.0.0~pre1-3~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0~pre1-3 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 12:57:22 -0700
-
-ignition-sensors6 (6.0.0~pre1-2~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0~pre1-2 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 11:46:49 -0700
-
-ignition-sensors6 (6.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0~pre1-1 release
-
- -- Michael Carroll <michael@openrobotics.org>  Wed, 22 Sep 2021 11:18:01 -0500
-
-ignition-sensors6 (6.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-sensors6 6.0.0~pre1-1 release
-
- -- Michael Carroll <mjcarroll@dalinar>  Wed, 22 Sep 2021 11:17:24 -0500
-
-ignition-sensors6 (5.999.999-1~buster) buster; urgency=medium
+ignition-sensors7 (6.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Apr 2021 15:27:17 -0700
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 07 Oct 2021 15:41:19 -0700
 
