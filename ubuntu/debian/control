@@ -472,6 +472,34 @@ Description: Ignition sensors2 classes and functions for robot apps - Lib therma
   .
   Shared library for thermal-camera sensor
 
+Package: libignition-sensors7-wide-angle-camera-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-msgs9-dev,
+         libignition-sensors7-core-dev (= ${binary:Version}),
+         libsdformat12-dev,
+         libignition-sensors7-wide-angle-camera (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Sensors classes and functions for robot apps - Dev files wide-angle-camera
+  Ignition Sensors is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Development files for wide-angle-camera sensor
+
+Package: libignition-sensors7-wide-angle-camera
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Sensors classes and functions for robot apps - Lib wide-angle-camera
+  Ignition Sensors is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Shared library for wide-angle-camera sensor
+
 Package: libignition-sensors7-dev
 Architecture: any
 Section: libdevel
@@ -490,6 +518,7 @@ Depends: libignition-sensors7-core-dev (= ${binary:Version}),
          libignition-sensors7-rgbd-camera-dev (= ${binary:Version}),
          libignition-sensors7-segmentation-camera-dev (= ${binary:Version}),
          libignition-sensors7-thermal-camera-dev (= ${binary:Version}),
+         libignition-sensors7-wide-angle-camera-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition sensors2 classes and functions for robot apps - Metapackage
