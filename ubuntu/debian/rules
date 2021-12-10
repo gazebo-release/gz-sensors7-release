@@ -28,10 +28,11 @@ override_dh_install:
 	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Lidar*.hh
 	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/LogicalCamera*.hh
 	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Magnetometer*.hh
-	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/SegmentationCamera*.hh
-	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/ThermalCamera*.hh
 	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Rendering*.hh
 	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/RgbdCamera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/SegmentationCamera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/ThermalCamera*.hh
+	$(RM) debian/libignition-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/WideAngleCamera*.hh
 	dh_missing --list-missing
 
 # test cannot run in parallel
