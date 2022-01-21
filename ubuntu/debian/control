@@ -357,10 +357,10 @@ Package: libignition-sensors7-navsat-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common4-events-dev,
+         libignition-common5-events-dev,
          libignition-math7-dev,
          libignition-sensors7-core-dev (= ${binary:Version}),
-         libsdformat12-dev,
+         libsdformat13-dev,
          libignition-sensors7-navsat (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
