@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/segmentation_camera/*
+usr/include/ignition/sensors*/gz/sensors/SegmentationCamera*.hh
 usr/include/ignition/sensors*/ignition/sensors/segmentation_camera/*
 usr/include/ignition/sensors*/ignition/sensors/SegmentationCamera*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-segmentation_camera/*

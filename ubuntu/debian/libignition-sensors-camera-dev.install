@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/camera/*
+usr/include/ignition/sensors*/gz/sensors/Camera*.hh
 usr/include/ignition/sensors*/ignition/sensors/camera/*
 usr/include/ignition/sensors*/ignition/sensors/Camera*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-camera/*

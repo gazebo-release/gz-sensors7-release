@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/air_pressure/*
+usr/include/ignition/sensors*/gz/sensors/AirPressure*.hh
 usr/include/ignition/sensors*/ignition/sensors/air_pressure/*
 usr/include/ignition/sensors*/ignition/sensors/AirPressure*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-air_pressure/*
