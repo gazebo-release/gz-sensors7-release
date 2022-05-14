@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/imu/*
+usr/include/ignition/sensors*/gz/sensors/Imu*.hh
 usr/include/ignition/sensors*/ignition/sensors/imu/*
 usr/include/ignition/sensors*/ignition/sensors/Imu*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-imu/*

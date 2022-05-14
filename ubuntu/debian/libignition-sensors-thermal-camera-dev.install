@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/thermal_camera/*
+usr/include/ignition/sensors*/gz/sensors/ThermalCamera*.hh
 usr/include/ignition/sensors*/ignition/sensors/thermal_camera/*
 usr/include/ignition/sensors*/ignition/sensors/ThermalCamera*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-thermal_camera/*

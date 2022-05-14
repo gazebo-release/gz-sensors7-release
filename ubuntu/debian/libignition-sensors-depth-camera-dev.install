@@ -1,3 +1,5 @@
+usr/include/ignition/sensors*/gz/sensors/depth_camera/*
+usr/include/ignition/sensors*/gz/sensors/DepthCamera*.hh
 usr/include/ignition/sensors*/ignition/sensors/depth_camera/*
 usr/include/ignition/sensors*/ignition/sensors/DepthCamera*.hh
 usr/lib/*/cmake/ignition-sensors[0-99]-depth_camera/*
