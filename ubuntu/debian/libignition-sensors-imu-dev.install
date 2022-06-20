@@ -1,7 +1,7 @@
-usr/include/ignition/sensors*/gz/sensors/imu/*
-usr/include/ignition/sensors*/gz/sensors/Imu*.hh
-usr/include/ignition/sensors*/ignition/sensors/imu/*
-usr/include/ignition/sensors*/ignition/sensors/Imu*.hh
-usr/lib/*/cmake/ignition-sensors[0-99]-imu/*
-usr/lib/*/libignition-sensors[0-99]-imu.so
-usr/lib/*/pkgconfig/ignition-sensors[0-99]-imu.pc
+usr/include/+(ignition|gz)/sensors*/gz/sensors/imu/*
+usr/include/+(ignition|gz)/sensors*/gz/sensors/Imu*.hh
+usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/imu/*
+usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/Imu*.hh
+usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-imu/*
+usr/lib/*/lib+(ignition|gz)-sensors[0-99]-imu.so
+usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-imu.pc

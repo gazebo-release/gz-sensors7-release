@@ -1,7 +1,7 @@
-usr/include/ignition/sensors*/gz/sensors/rgbd_camera/*
-usr/include/ignition/sensors*/gz/sensors/RgbdCamera*.hh
-usr/include/ignition/sensors*/ignition/sensors/rgbd_camera/*
-usr/include/ignition/sensors*/ignition/sensors/RgbdCamera*.hh
-usr/lib/*/cmake/ignition-sensors[0-99]-rgbd_camera/*
-usr/lib/*/libignition-sensors[0-99]-rgbd_camera.so
-usr/lib/*/pkgconfig/ignition-sensors[0-99]-rgbd_camera.pc
+usr/include/+(ignition|gz)/sensors*/gz/sensors/rgbd_camera/*
+usr/include/+(ignition|gz)/sensors*/gz/sensors/RgbdCamera*.hh
+usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/rgbd_camera/*
+usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/RgbdCamera*.hh
+usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-rgbd_camera/*
+usr/lib/*/lib+(ignition|gz)-sensors[0-99]-rgbd_camera.so
+usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-rgbd_camera.pc

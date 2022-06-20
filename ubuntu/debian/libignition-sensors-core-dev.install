@@ -1,8 +1,8 @@
-usr/include/ignition/sensors[0-99]/gz/sensors.hh
-usr/include/ignition/sensors[0-99]/gz/sensors/*.hh
-usr/include/ignition/sensors[0-99]/gz/sensors/detail/*.hh
-usr/include/ignition/sensors[0-99]/ignition/sensors.hh
-usr/include/ignition/sensors[0-99]/ignition/sensors/*.hh
-usr/lib/*/libignition-sensors[0-99].so
-usr/lib/*/pkgconfig/ignition-sensors[0-99].pc
-usr/lib/*/cmake/ignition-sensors[0-99]/ignition-sensors*
+usr/include/+(ignition|gz)/sensors[0-99]/gz/sensors.hh
+usr/include/+(ignition|gz)/sensors[0-99]/gz/sensors/*.hh
+usr/include/+(ignition|gz)/sensors[0-99]/gz/sensors/detail/*.hh
+usr/include/+(ignition|gz)/sensors[0-99]/+(ignition|gz)/sensors.hh
+usr/include/+(ignition|gz)/sensors[0-99]/+(ignition|gz)/sensors/*.hh
+usr/lib/*/lib+(ignition|gz)-sensors[0-99].so
+usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99].pc
+usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]/+(ignition|gz)-sensors*
