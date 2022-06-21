@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/logical_camera/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/LogicalCamera*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/logical_camera/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/LogicalCamera*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-logical_camera/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-logical_camera.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-logical_camera.pc
+usr/include/*/sensors*/gz/sensors/logical_camera/*
+usr/include/*/sensors*/gz/sensors/LogicalCamera*.hh
+usr/include/*/sensors*/*/sensors/logical_camera/*
+usr/include/*/sensors*/*/sensors/LogicalCamera*.hh
+usr/lib/*/cmake/*-sensors[0-99]-logical_camera/*
+usr/lib/*/lib*-sensors[0-99]-logical_camera.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-logical_camera.pc

@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/thermal_camera/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/ThermalCamera*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/thermal_camera/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/ThermalCamera*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-thermal_camera/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-thermal_camera.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-thermal_camera.pc
+usr/include/*/sensors*/gz/sensors/thermal_camera/*
+usr/include/*/sensors*/gz/sensors/ThermalCamera*.hh
+usr/include/*/sensors*/*/sensors/thermal_camera/*
+usr/include/*/sensors*/*/sensors/ThermalCamera*.hh
+usr/lib/*/cmake/*-sensors[0-99]-thermal_camera/*
+usr/lib/*/lib*-sensors[0-99]-thermal_camera.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-thermal_camera.pc

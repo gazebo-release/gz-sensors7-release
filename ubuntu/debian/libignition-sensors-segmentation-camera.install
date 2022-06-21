@@ -1,1 +1,1 @@
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-segmentation_camera.so.*
+usr/lib/*/lib*-sensors[0-99]-segmentation_camera.so.*

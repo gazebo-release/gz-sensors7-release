@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/altimeter/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/Altimeter*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/altimeter/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/Altimeter*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-altimeter/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-altimeter.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-altimeter.pc
+usr/include/*/sensors*/gz/sensors/altimeter/*
+usr/include/*/sensors*/gz/sensors/Altimeter*.hh
+usr/include/*/sensors*/*/sensors/altimeter/*
+usr/include/*/sensors*/*/sensors/Altimeter*.hh
+usr/lib/*/cmake/*-sensors[0-99]-altimeter/*
+usr/lib/*/lib*-sensors[0-99]-altimeter.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-altimeter.pc

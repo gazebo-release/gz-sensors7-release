@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/gpu_lidar/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/GpuLidar*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/gpu_lidar/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/GpuLidar*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-gpu_lidar/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-gpu_lidar.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-gpu_lidar.pc
+usr/include/*/sensors*/gz/sensors/gpu_lidar/*
+usr/include/*/sensors*/gz/sensors/GpuLidar*.hh
+usr/include/*/sensors*/*/sensors/gpu_lidar/*
+usr/include/*/sensors*/*/sensors/GpuLidar*.hh
+usr/lib/*/cmake/*-sensors[0-99]-gpu_lidar/*
+usr/lib/*/lib*-sensors[0-99]-gpu_lidar.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-gpu_lidar.pc

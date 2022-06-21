@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/segmentation_camera/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/SegmentationCamera*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/segmentation_camera/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/SegmentationCamera*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-segmentation_camera/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-segmentation_camera.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-segmentation_camera.pc
+usr/include/*/sensors*/gz/sensors/segmentation_camera/*
+usr/include/*/sensors*/gz/sensors/SegmentationCamera*.hh
+usr/include/*/sensors*/*/sensors/segmentation_camera/*
+usr/include/*/sensors*/*/sensors/SegmentationCamera*.hh
+usr/lib/*/cmake/*-sensors[0-99]-segmentation_camera/*
+usr/lib/*/lib*-sensors[0-99]-segmentation_camera.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-segmentation_camera.pc

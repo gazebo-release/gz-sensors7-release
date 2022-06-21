@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/air_pressure/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/AirPressure*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/air_pressure/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/AirPressure*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-air_pressure/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-air_pressure.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-air_pressure.pc
+usr/include/*/sensors*/gz/sensors/air_pressure/*
+usr/include/*/sensors*/gz/sensors/AirPressure*.hh
+usr/include/*/sensors*/*/sensors/air_pressure/*
+usr/include/*/sensors*/*/sensors/AirPressure*.hh
+usr/lib/*/cmake/*-sensors[0-99]-air_pressure/*
+usr/lib/*/lib*-sensors[0-99]-air_pressure.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-air_pressure.pc

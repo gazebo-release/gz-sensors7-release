@@ -1,2 +1,2 @@
-usr/lib/*/lib+(ignition|gz)-sensors[0-99].so.*
-usr/share/+(ignition|gz)/+(ignition|gz)-sensors*/*
+usr/lib/*/lib*-sensors[0-99].so.*
+usr/share/*/*-sensors*/*

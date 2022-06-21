@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/force_torque/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/ForceTorque*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/force_torque/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/ForceTorque*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-force_torque/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-force_torque.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-force_torque.pc
+usr/include/*/sensors*/gz/sensors/force_torque/*
+usr/include/*/sensors*/gz/sensors/ForceTorque*.hh
+usr/include/*/sensors*/*/sensors/force_torque/*
+usr/include/*/sensors*/*/sensors/ForceTorque*.hh
+usr/lib/*/cmake/*-sensors[0-99]-force_torque/*
+usr/lib/*/lib*-sensors[0-99]-force_torque.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-force_torque.pc

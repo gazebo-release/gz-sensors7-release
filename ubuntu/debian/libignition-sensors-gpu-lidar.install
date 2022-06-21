@@ -1,1 +1,1 @@
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-gpu_lidar.so.*
+usr/lib/*/lib*-sensors[0-99]-gpu_lidar.so.*

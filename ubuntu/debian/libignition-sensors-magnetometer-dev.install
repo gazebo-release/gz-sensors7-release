@@ -1,7 +1,7 @@
-usr/include/+(ignition|gz)/sensors*/gz/sensors/magnetometer/*
-usr/include/+(ignition|gz)/sensors*/gz/sensors/Magnetometer*.hh
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/magnetometer/*
-usr/include/+(ignition|gz)/sensors*/+(ignition|gz)/sensors/Magnetometer*.hh
-usr/lib/*/cmake/+(ignition|gz)-sensors[0-99]-magnetometer/*
-usr/lib/*/lib+(ignition|gz)-sensors[0-99]-magnetometer.so
-usr/lib/*/pkgconfig/+(ignition|gz)-sensors[0-99]-magnetometer.pc
+usr/include/*/sensors*/gz/sensors/magnetometer/*
+usr/include/*/sensors*/gz/sensors/Magnetometer*.hh
+usr/include/*/sensors*/*/sensors/magnetometer/*
+usr/include/*/sensors*/*/sensors/Magnetometer*.hh
+usr/lib/*/cmake/*-sensors[0-99]-magnetometer/*
+usr/lib/*/lib*-sensors[0-99]-magnetometer.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-magnetometer.pc
