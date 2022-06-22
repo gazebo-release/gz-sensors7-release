@@ -1,7 +1,5 @@
-usr/include/ignition/sensors*/gz/sensors/wide_angle_camera/*
-usr/include/ignition/sensors*/gz/sensors/WideAngleCamera*.hh
-usr/include/ignition/sensors*/ignition/sensors/wide_angle_camera/*
-usr/include/ignition/sensors*/ignition/sensors/WideAngleCamera*.hh
-usr/lib/*/cmake/ignition-sensors[0-99]-wide_angle_camera/*
-usr/lib/*/libignition-sensors[0-99]-wide_angle_camera.so
-usr/lib/*/pkgconfig/ignition-sensors[0-99]-wide_angle_camera.pc
+usr/include/*/sensors*/*/sensors/wide_angle_camera/*
+usr/include/*/sensors*/*/sensors/WideAngleCamera*.hh
+usr/lib/*/cmake/*-sensors[0-99]-wide_angle_camera/*
+usr/lib/*/lib*-sensors[0-99]-wide_angle_camera.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-wide_angle_camera.pc

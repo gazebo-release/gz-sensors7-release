@@ -1,1 +1,1 @@
-usr/lib/*/libignition-sensors[0-99]-altimeter.so.*
+usr/lib/*/lib*-sensors[0-99]-altimeter.so.*

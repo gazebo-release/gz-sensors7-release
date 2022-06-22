@@ -1,7 +1,5 @@
-usr/include/ignition/sensors*/gz/sensors/navsat/*
-usr/include/ignition/sensors*/gz/sensors/NavSat*.hh
-usr/include/ignition/sensors*/ignition/sensors/navsat/*
-usr/include/ignition/sensors*/ignition/sensors/NavSat*.hh
-usr/lib/*/cmake/ignition-sensors[0-99]-navsat/*
-usr/lib/*/libignition-sensors[0-99]-navsat.so
-usr/lib/*/pkgconfig/ignition-sensors[0-99]-navsat.pc
+usr/include/*/sensors*/*/sensors/navsat/*
+usr/include/*/sensors*/*/sensors/NavSat*.hh
+usr/lib/*/cmake/*-sensors[0-99]-navsat/*
+usr/lib/*/lib*-sensors[0-99]-navsat.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-navsat.pc
