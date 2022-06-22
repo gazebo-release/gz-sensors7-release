@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/wide_angle_camera/*
-usr/include/*/sensors*/gz/sensors/WideAngleCamera*.hh
 usr/include/*/sensors*/*/sensors/wide_angle_camera/*
 usr/include/*/sensors*/*/sensors/WideAngleCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-wide_angle_camera/*

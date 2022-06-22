@@ -1,5 +1,3 @@
-usr/include/*/sensors[0-99]/gz/sensors.hh
-usr/include/*/sensors[0-99]/gz/sensors/*.hh
 usr/include/*/sensors[0-99]/gz/sensors/detail/*.hh
 usr/include/*/sensors[0-99]/*/sensors.hh
 usr/include/*/sensors[0-99]/*/sensors/*.hh

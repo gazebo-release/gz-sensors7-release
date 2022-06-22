@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/camera/*
-usr/include/*/sensors*/gz/sensors/Camera*.hh
 usr/include/*/sensors*/*/sensors/camera/*
 usr/include/*/sensors*/*/sensors/Camera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-camera/*

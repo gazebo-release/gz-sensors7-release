@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/thermal_camera/*
-usr/include/*/sensors*/gz/sensors/ThermalCamera*.hh
 usr/include/*/sensors*/*/sensors/thermal_camera/*
 usr/include/*/sensors*/*/sensors/ThermalCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-thermal_camera/*

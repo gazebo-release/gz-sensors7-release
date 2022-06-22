@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/logical_camera/*
-usr/include/*/sensors*/gz/sensors/LogicalCamera*.hh
 usr/include/*/sensors*/*/sensors/logical_camera/*
 usr/include/*/sensors*/*/sensors/LogicalCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-logical_camera/*

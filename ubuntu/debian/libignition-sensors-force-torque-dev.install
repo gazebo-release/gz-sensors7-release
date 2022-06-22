@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/force_torque/*
-usr/include/*/sensors*/gz/sensors/ForceTorque*.hh
 usr/include/*/sensors*/*/sensors/force_torque/*
 usr/include/*/sensors*/*/sensors/ForceTorque*.hh
 usr/lib/*/cmake/*-sensors[0-99]-force_torque/*

@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/altimeter/*
-usr/include/*/sensors*/gz/sensors/Altimeter*.hh
 usr/include/*/sensors*/*/sensors/altimeter/*
 usr/include/*/sensors*/*/sensors/Altimeter*.hh
 usr/lib/*/cmake/*-sensors[0-99]-altimeter/*

@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/air_pressure/*
-usr/include/*/sensors*/gz/sensors/AirPressure*.hh
 usr/include/*/sensors*/*/sensors/air_pressure/*
 usr/include/*/sensors*/*/sensors/AirPressure*.hh
 usr/lib/*/cmake/*-sensors[0-99]-air_pressure/*

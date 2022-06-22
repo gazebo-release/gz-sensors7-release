@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/segmentation_camera/*
-usr/include/*/sensors*/gz/sensors/SegmentationCamera*.hh
 usr/include/*/sensors*/*/sensors/segmentation_camera/*
 usr/include/*/sensors*/*/sensors/SegmentationCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-segmentation_camera/*

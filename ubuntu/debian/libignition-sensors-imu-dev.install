@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/imu/*
-usr/include/*/sensors*/gz/sensors/Imu*.hh
 usr/include/*/sensors*/*/sensors/imu/*
 usr/include/*/sensors*/*/sensors/Imu*.hh
 usr/lib/*/cmake/*-sensors[0-99]-imu/*

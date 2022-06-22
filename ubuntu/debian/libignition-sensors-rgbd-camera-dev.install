@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/rgbd_camera/*
-usr/include/*/sensors*/gz/sensors/RgbdCamera*.hh
 usr/include/*/sensors*/*/sensors/rgbd_camera/*
 usr/include/*/sensors*/*/sensors/RgbdCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-rgbd_camera/*

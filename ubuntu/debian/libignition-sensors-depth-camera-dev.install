@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/depth_camera/*
-usr/include/*/sensors*/gz/sensors/DepthCamera*.hh
 usr/include/*/sensors*/*/sensors/depth_camera/*
 usr/include/*/sensors*/*/sensors/DepthCamera*.hh
 usr/lib/*/cmake/*-sensors[0-99]-depth_camera/*

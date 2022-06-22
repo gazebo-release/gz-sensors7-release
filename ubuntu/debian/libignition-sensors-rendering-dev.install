@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/rendering/*
-usr/include/*/sensors*/gz/sensors/Rendering*.hh
 usr/include/*/sensors*/*/sensors/rendering/*
 usr/include/*/sensors*/*/sensors/Rendering*.hh
 usr/lib/*/cmake/*-sensors[0-99]-rendering/*

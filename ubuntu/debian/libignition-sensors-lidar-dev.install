@@ -1,5 +1,3 @@
-usr/include/*/sensors*/gz/sensors/lidar/*
-usr/include/*/sensors*/gz/sensors/Lidar*.hh
 usr/include/*/sensors*/*/sensors/lidar/*
 usr/include/*/sensors*/*/sensors/Lidar*.hh
 usr/lib/*/cmake/*-sensors[0-99]-lidar/*
