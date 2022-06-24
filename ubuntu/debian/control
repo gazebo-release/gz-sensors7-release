@@ -16,10 +16,10 @@ Build-Depends: cmake,
                libignition-transport12-core-dev,
                libignition-tools2-dev,
                libsdformat13-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ignition-sensors
-Vcs-Git: https://github.com/ignition-release/ign-sensors7-release
+Vcs-Browser: https://github.com/gazebosim/gz-sensors
+Vcs-Git: https://github.com/gazebo-release/gz-sensors7-release
 Standards-Version: 4.5.1
-Homepage: http://ignitionrobotics.org/
+Homepage: http://gazebosim.org/
 
 Package: libignition-sensors7-core-dev
 Architecture: any
@@ -36,8 +36,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Development files
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Development files
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Core development files
@@ -48,8 +48,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Shared library
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Shared library
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Main shared library
@@ -64,8 +64,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-air-pressure (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files air-pressure
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files air-pressure
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for air-pressure sensor
@@ -76,8 +76,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib air-pressure
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib air-pressure
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for air-pressure sensor
@@ -92,8 +92,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-altimeter (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files altimeter
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files altimeter
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for altimeter sensor
@@ -104,8 +104,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib altimeter
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib altimeter
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for altimeter sensor
@@ -123,8 +123,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files Camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files Camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for Camera sensor
@@ -135,8 +135,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib Camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib Camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for Camera sensor
@@ -155,8 +155,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-depth-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files depth-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files depth-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for depth-camera sensor
@@ -167,8 +167,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib depth-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib depth-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for depth-camera sensor
@@ -184,8 +184,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-force-torque (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files force-torque
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files force-torque
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for force-torque sensor
@@ -196,8 +196,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib force-torque
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib force-torque
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for force-torque sensor
@@ -213,8 +213,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-imu (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files imu
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files imu
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for imu sensor
@@ -225,8 +225,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib imu
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib imu
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for imu sensor
@@ -244,8 +244,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files lidar
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for lidar sensor
@@ -256,8 +256,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib lidar
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for lidar sensor
@@ -276,8 +276,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-gpu-lidar (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files gpu-lidar
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files gpu-lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for gpu-lidar sensor
@@ -288,8 +288,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib gpu-lidar
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib gpu-lidar
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for gpu-lidar sensor
@@ -307,8 +307,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-logical-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files logical-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files logical-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for logical-camera sensor
@@ -319,8 +319,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib logical-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib logical-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for logical-camera sensor
@@ -336,8 +336,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-magnetometer (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files magnetometer
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files magnetometer
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for magnetometer sensor
@@ -348,8 +348,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib magnetometer
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib magnetometer
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for magnetometer sensor
@@ -365,8 +365,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-navsat (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files navsat
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files navsat
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for NavSat (GPS) sensor
@@ -377,8 +377,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib navsat
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib navsat
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for NavSat (GPS) sensor
@@ -394,8 +394,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-rendering (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files rendering
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files rendering
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for rendering sensor
@@ -406,8 +406,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib rendering
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib rendering
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for rendering sensor
@@ -422,8 +422,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-rgbd-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files rgbd-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files rgbd-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for rgbd-camera sensor
@@ -434,8 +434,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib rgbd-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib rgbd-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for rgbd-camera sensor
@@ -453,8 +453,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-segmentation-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files segmentation-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files segmentation-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for segmentation-camera sensor
@@ -465,8 +465,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib segmentation-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib segmentation-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for segmentation-camera sensor
@@ -484,8 +484,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-thermal-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files thermal-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files thermal-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for thermal-camera sensor
@@ -496,8 +496,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib thermal-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib thermal-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for thermal-camera sensor
@@ -512,8 +512,8 @@ Depends: libignition-cmake3-dev,
          libignition-sensors7-wide-angle-camera (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Dev files wide-angle-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Dev files wide-angle-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files for wide-angle-camera sensor
@@ -524,8 +524,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Lib wide-angle-camera
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Lib wide-angle-camera
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Shared library for wide-angle-camera sensor
@@ -553,8 +553,8 @@ Depends: libignition-sensors7-core-dev (= ${binary:Version}),
          libignition-sensors7-wide-angle-camera-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Sensors classes and functions for robot apps - Metapackage
- Ignition Sensors is a component in the ignition framework, a set of libraries
+Description: Gazebo Sensors classes and functions for robot apps - Metapackage
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Metapackage for all the -dev files

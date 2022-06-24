@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignition-sensors
-Upstream-Contact: https://github.com/ignitionrobotics/ign-sensors/issues
-Source: https://github.com/ignitionrobotics/ign-sensors
+Upstream-Name: gz-sensors
+Upstream-Contact: https://github.com/gazebosim/gz-sensors/issues
+Source: https://github.com/gazebosim/gz-sensors
 Files-Excluded: .github
                 NEWS
                 test/gtest
