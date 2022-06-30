@@ -6,15 +6,15 @@ Build-Depends: cmake,
                doxygen,
                pkg-config,
                debhelper (>= 11),
-               libignition-cmake3-dev,
-               libignition-common5-events-dev,
-               libignition-common5-profiler-dev,
-               libignition-math7-dev,
-               libignition-msgs9-dev,
-               libignition-rendering7-ogre1-dev,
-               libignition-rendering7-ogre2-dev,
-               libignition-transport12-core-dev,
-               libignition-tools2-dev,
+               libgz-cmake3-dev,
+               libgz-common5-events-dev,
+               libgz-common5-profiler-dev,
+               libgz-math7-dev,
+               libgz-msgs9-dev,
+               libgz-rendering7-ogre1-dev,
+               libgz-rendering7-ogre2-dev,
+               libgz-transport12-core-dev,
+               libgz-tools2-dev,
                libsdformat13-dev
 Vcs-Browser: https://github.com/gazebosim/gz-sensors
 Vcs-Git: https://github.com/gazebo-release/gz-sensors7-release
@@ -24,14 +24,14 @@ Homepage: http://gazebosim.org/
 Package: libgz-sensors7-core-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-rendering7-ogre1-dev,
-         libignition-rendering7-ogre2-dev,
-         libignition-transport12-core-dev,
-         libignition-tools2-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-rendering7-ogre1-dev,
+         libgz-rendering7-ogre2-dev,
+         libgz-transport12-core-dev,
+         libgz-tools2-dev,
          libsdformat13-dev,
          libgz-sensors7 (= ${binary:Version}),
          ${misc:Depends}
@@ -61,8 +61,8 @@ Description: Gazebo Sensors classes and functions for robot apps - Shared librar
 Package: libgz-sensors7-air-pressure-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-air-pressure (= ${binary:Version}),
@@ -93,8 +93,8 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib air-press
 Package: libgz-sensors7-altimeter-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-altimeter (= ${binary:Version}),
@@ -125,11 +125,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib altimeter
 Package: libgz-sensors7-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-camera (= ${binary:Version}),
@@ -160,11 +160,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib Camera
 Package: libgz-sensors7-depth-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libgz-sensors7-camera-dev (= ${binary:Version}),
          libsdformat13-dev,
@@ -196,9 +196,9 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib depth-cam
 Package: libgz-sensors7-force-torque-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-force-torque (= ${binary:Version}),
@@ -229,9 +229,9 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib force-tor
 Package: libgz-sensors7-imu-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-imu (= ${binary:Version}),
@@ -262,11 +262,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib imu
 Package: libgz-sensors7-lidar-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-lidar (= ${binary:Version}),
@@ -297,11 +297,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib lidar
 Package: libgz-sensors7-gpu-lidar-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libgz-sensors7-lidar-dev (= ${binary:Version}),
          libsdformat13-dev,
@@ -333,11 +333,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib gpu-lidar
 Package: libgz-sensors7-logical-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-logical-camera (= ${binary:Version}),
@@ -368,9 +368,9 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib logical-c
 Package: libgz-sensors7-magnetometer-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-magnetometer (= ${binary:Version}),
@@ -401,9 +401,9 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib magnetome
 Package: libgz-sensors7-navsat-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-navsat (= ${binary:Version}),
@@ -434,9 +434,9 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib navsat
 Package: libgz-sensors7-rendering-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-rendering (= ${binary:Version}),
@@ -467,8 +467,8 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib rendering
 Package: libgz-sensors7-rgbd-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-msgs9-dev,
+Depends: libgz-cmake3-dev,
+         libgz-msgs9-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-rgbd-camera (= ${binary:Version}),
@@ -499,11 +499,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib rgbd-came
 Package: libgz-sensors7-segmentation-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-segmentation-camera (= ${binary:Version}),
@@ -534,11 +534,11 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib segmentat
 Package: libgz-sensors7-thermal-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-common5-events-dev,
-         libignition-math7-dev,
-         libignition-msgs9-dev,
-         libignition-transport12-core-dev,
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-thermal-camera (= ${binary:Version}),
@@ -569,8 +569,8 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib thermal-c
 Package: libgz-sensors7-wide-angle-camera-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake3-dev,
-         libignition-msgs9-dev,
+Depends: libgz-cmake3-dev,
+         libgz-msgs9-dev,
          libgz-sensors7-core-dev (= ${binary:Version}),
          libsdformat13-dev,
          libgz-sensors7-wide-angle-camera (= ${binary:Version}),
