@@ -11,39 +11,39 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install --
 	# need to remove files present in components
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/AirPressure*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Altimeter*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Camera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/DepthCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/GpuLidarSensor*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/ForceTorque*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Imu*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Lidar*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/LogicalCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Magnetometer*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/NavSat*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/Rendering*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/RgbdCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/SegmentationCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/ThermalCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/gz/sensors/WideAngleCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/AirPressure*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Altimeter*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Camera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/DepthCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/GpuLidarSensor*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/ForceTorque*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Imu*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Lidar*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/LogicalCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Magnetometer*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/NavSat*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Rendering*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/RgbdCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/SegmentationCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/ThermalCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/WideAngleCamera*.hh
 
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/AirPressure*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Altimeter*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Camera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/DepthCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/GpuLidarSensor*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/ForceTorque*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Imu*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Lidar*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/LogicalCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Magnetometer*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/NavSat*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/Rendering*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/RgbdCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/SegmentationCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/ThermalCamera*.hh
-	$(RM) debian/libgz-sensors*-core-dev/usr/include/ignition/sensors*/ignition/sensors/WideAngleCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/AirPressure*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Altimeter*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Camera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/DepthCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/GpuLidarSensor*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/ForceTorque*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Imu*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Lidar*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/LogicalCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Magnetometer*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/NavSat*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/Rendering*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/RgbdCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/SegmentationCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/ThermalCamera*.hh
+	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/ignition/sensors/WideAngleCamera*.hh
 
 override_dh_auto_test:
 	true
