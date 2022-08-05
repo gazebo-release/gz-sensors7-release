@@ -122,6 +122,37 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib altimeter
  .
  Shared library for altimeter sensor
 
+Package: libgz-sensors7-boundingbox-camera-dev
+Architecture: any
+Section: libdevel
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-math7-dev,
+         libgz-msgs9-dev,
+         libgz-transport12-core-dev,
+         libgz-sensors7-core-dev (= ${binary:Version}),
+         libsdformat13-dev,
+         libgz-sensors7-boundingbox-camera (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Dev files Bounding Box Camera
+ Gazebo sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Development files for Bounding Box Camera sensor
+
+Package: libgz-sensors7-boundingbox-camera
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Lib Bounding Box Camera
+ Gazebo sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Shared library for Bounding Box Camera sensor
+
 Package: libgz-sensors7-camera-dev
 Architecture: any
 Section: libdevel
@@ -605,6 +636,7 @@ Section: libdevel
 Depends: libgz-sensors7-core-dev (= ${binary:Version}),
          libgz-sensors7-air-pressure-dev (= ${binary:Version}),
          libgz-sensors7-altimeter-dev (= ${binary:Version}),
+         libgz-sensors7-boundingbox-camera-dev (= ${binary:Version}),
          libgz-sensors7-camera-dev (= ${binary:Version}),
          libgz-sensors7-depth-camera-dev (= ${binary:Version}),
          libgz-sensors7-force-torque-dev (= ${binary:Version}),
@@ -671,6 +703,22 @@ Description: transitional package
 
 Package: libignition-sensors7-altimeter
 Depends: libgz-sensors7-altimeter, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-sensors7-boundingbox-camera-dev
+Depends: libgz-sensors7-boundingbox-camera-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-sensors7-boundingbox-camera
+Depends: libgz-sensors7-boundingbox-camera, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs

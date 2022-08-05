@@ -1,0 +1,5 @@
+usr/include/*/sensors*/*/sensors/boundingbox_camera/*
+usr/include/*/sensors*/*/sensors/BoundingBoxCamera*.hh
+usr/lib/*/cmake/*-sensors[0-99]-boundingbox_camera/*
+usr/lib/*/lib*-sensors[0-99]-boundingbox_camera.so
+usr/lib/*/pkgconfig/*-sensors[0-99]-boundingbox_camera.pc
