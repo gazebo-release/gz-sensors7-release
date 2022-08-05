@@ -13,7 +13,7 @@ override_dh_install:
 	# need to remove files present in components
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/AirPressure*.hh
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Altimeter*.hh
-  $(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/BoundingBoxCamera*.hh
+ 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/BoundingBoxCamera*.hh
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/Camera*.hh
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/DepthCamera*.hh
 	$(RM) debian/libgz-sensors*-core-dev/usr/include/gz/sensors*/gz/sensors/GpuLidarSensor*.hh
