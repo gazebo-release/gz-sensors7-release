@@ -90,6 +90,38 @@ Description: Gazebo Sensors classes and functions for robot apps - Lib air-press
  .
  Shared library for air-pressure sensor
 
+Package: libgz-sensors7-air-speed-dev
+Architecture: any
+Section: libdevel
+Depends: libgz-cmake3-dev,
+         libgz-common5-events-dev,
+         libgz-sensors7-core-dev (= ${binary:Version}),
+         libsdformat13-dev,
+         libgz-sensors7-air-speed (= ${binary:Version}),
+         ${misc:Depends}
+Breaks: libignition-sensors7-air-speed-dev (<< 6.999.999+nightly+git20220630+4r075123ddb19107a461c0777d69a323d9012b7bb9-4)
+Replaces: libignition-sensors7-air-speed-dev (<< 6.999.999+nightly+git20220630+4r075123ddb19107a461c0777d69a323d9012b7bb9-4)
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Dev files air-speed
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Development files for air-speed sensor
+
+Package: libgz-sensors7-air-speed
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-sensors7-air-speed (<< 6.999.999+nightly+git20220630+4r075123ddb19107a461c0777d69a323d9012b7bb9-4)
+Replaces: libignition-sensors7-air-pseed (<< 6.999.999+nightly+git20220630+4r075123ddb19107a461c0777d69a323d9012b7bb9-4)
+Multi-Arch: same
+Description: Gazebo Sensors classes and functions for robot apps - Lib air-speed
+ Gazebo Sensors is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Shared library for air-speed sensor
+
 Package: libgz-sensors7-altimeter-dev
 Architecture: any
 Section: libdevel
@@ -635,6 +667,7 @@ Architecture: any
 Section: libdevel
 Depends: libgz-sensors7-core-dev (= ${binary:Version}),
          libgz-sensors7-air-pressure-dev (= ${binary:Version}),
+         libgz-sensors7-air-speed-dev (= ${binary:Version}),
          libgz-sensors7-altimeter-dev (= ${binary:Version}),
          libgz-sensors7-boundingbox-camera-dev (= ${binary:Version}),
          libgz-sensors7-camera-dev (= ${binary:Version}),
