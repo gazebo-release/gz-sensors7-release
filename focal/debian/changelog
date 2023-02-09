@@ -1,3 +1,9 @@
+gz-sensors7 (7.1.0-1~focal) focal; urgency=medium
+
+  * gz-sensors7 7.1.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Thu, 09 Feb 2023 15:26:47 -0800
+
 gz-sensors7 (7.0.0-1~focal) focal; urgency=medium
 
   * gz-sensors7 7.0.0-1 release
